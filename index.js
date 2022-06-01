@@ -21,10 +21,10 @@ const dataBelanjaan = [
 ];
 
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
-const listBelanjaan = () => {
+let listBelanjaan = () => {
   for(let i = 0; i < dataBelanjaan.length; i++) {
-    console.log(`- ${dataBelanjaan[i].nama} x ${dataBelanjaan[i].kuantitas}`);
-  } ;
+    (`- ${dataBelanjaan[i].nama} x ${dataBelanjaan[i].kuantitas}`);
+  } return new Array ;
 };
 
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
