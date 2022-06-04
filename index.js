@@ -24,7 +24,7 @@ const dataBelanjaan = [
 let listBelanjaan = () => {
   let list = [];
   for(const element of dataBelanjaan) {
-   console.log(`- ${element.nama} x ${element.kuantitas}`);
+   console.log(" - " + element.nama + " x " + element.kuantitas);
   } return (list);
 };
 
@@ -33,7 +33,7 @@ let listBelanjaan = () => {
 let totalBelanjaan = () => {
   let total = 0;
   for (const element of dataBelanjaan) {
-   total += (element.harga * element.kuantitas ++);
+   total += (element.harga * element.kuantitas);
   }  return (total)
 };
 
