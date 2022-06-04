@@ -24,7 +24,7 @@ const dataBelanjaan = [
 function listBelanjaan(dataBelanjaan)  {
   let list = [];
   for(let i = 0; i < dataBelanjaan.length; i++ ) {
-   console.log(" - " + dataBelanjaan[i].nama + " x " + dataBelanjaan[i].kuantitas);
+   " - " + dataBelanjaan[i].nama + " x " + dataBelanjaan[i].kuantitas;
   } return (list);
 };
 
