@@ -21,7 +21,7 @@ const dataBelanjaan = [
 ];
 
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
-const listBelanjaa = (dataBelanjaan) => {
+const listBelanjaan = (dataBelanjaan) => {
   let list = [];
   for(let i = 0; i < dataBelanjaan.length; i++) {
     list[i] = " - " + dataBelanjaan[i].nama + " x " + dataBelanjaan[i].kuantitas;
